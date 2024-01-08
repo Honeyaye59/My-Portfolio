@@ -1,1 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
+:root {
+    --background-color: #1B4242;
+    --text-color: #fff;
+    --orange-color: #EE7214;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+body {
+    background-color: var(--background-color);
+    color: #fff;
+    font-family: 'Rethink Sans', sans-serif;
+}

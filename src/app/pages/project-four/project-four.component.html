@@ -1,0 +1,158 @@
+<section class="project-four">
+    <div class="container">
+        <div class="icon-container">
+            <i class="fa-solid fa-arrow-left icon" [routerLink]="'/home'"></i>
+        </div>
+        <div class="btn-container">
+            <a class="btn" href="https://github.com/Honeyaye59/task-manager-dsa" target="_blank">Source Code <i class="fa-brands fa-github"></i></a>
+
+            <a class="btn" href="https://honeyaye59.github.io/task-manager-dsa/" target="_blank">Live Demo</a>
+        </div>
+        <h1>Task Manager</h1>
+        <span>English version below</span>
+        <p class="sub-title">
+            ဒီ website ကတော့ to-do-list တွေကို create လုပ်ပေးတဲ့ website ပဲဖြစ်ပါတယ်
+        </p>
+        <p class="sub-title">ဒီ project မှာဆိုရင် task တွေကို သိမ်းတဲ့အခါ create လုပ်တဲ့အခါ JavaScript ရဲ့ built-in
+            datastructure ဖြစ်တဲ့ Array ကို အသုံးမပြုဘဲ Singly Linked List ကိုအသုံးပြုထားပါတယ် </p>
+
+        <ul>
+            <li>
+                <p>လုပ်ရမယ့် အလုပ်တွေကို input ထဲမှာရေးပြီး add ကို နှိပ်လိုက်ရင် task linked list ထဲမှာ create လုပ်ပြီး
+                    အဲ့ to-do-list တွေက My Tasks အောက်မှာပေါ်လာမှာပဲ ဖြစ်ပါတယ်</p>
+                <div class="img-container">
+                    <img src="assets/images/projectFour/1.png" alt="">
+                </div>
+                <hr>
+            </li>
+            <li>
+                <p>
+                    လုပ်ပြီးသွားတဲ့ ဟာတွေကို click နှိပ်လိုက်ရင် မျဉ်းတားပေးပါလိမ့်မယ် ထပ် click လိုက်ရင် အဲ့လိုင်း
+                    ပျောက်သွားပါလိမ့်မယ်
+                </p>
+                <div class="img-container">
+                    <img src="assets/images/projectFour/2.png" alt="">
+                </div>
+                <hr>
+            </li>
+            <li>
+                <p>Singly Linked List ရော Array ရောက data တွေကို သိမ်းတဲ့အခါမျိုးမှာ အသုံးပြုတဲ့ data structure
+                    တွေပဲဖြစ်ပါတယ် ဒါပေမယ့် အခြေအနေပေါ်မူတည်ပြီး အနည်းငယ်ကွာခြားတဲ့ လုပ်ဆောင်မှုမျိုး time efficiency
+                    တို့ space efficiency တို့ကွာခြားသွားပါတယ်</p>
+            </li>
+            <li>
+                <p> Let's compare the time complexity and space complexity of arrays and singly linked lists</p>
+                <div class="img-container">
+                    <img src="assets/images/projectFour/3.png" alt="">
+                </div>
+            </li>
+            <li>
+                <ul class="inner-ul">
+                    <p class="header">Memory Allocation</p>
+
+                    <li>
+                        Array မှာဆို Element တွေကို အစဉ်လိုက်သိမ်းပါတယ် ဆိုလိုချင်တာက တစ်ခုပြီးတစ်ခုရှေ့နောက်
+                        အစဉ်လိုက်ဖြစ်နေတာပါ
+                    </li>
+                    <li>
+                        Singly Linked List မှာဆိုရင်တော့ Element တွေကို Memory ထဲမှာ အစဉ်လိုက်သိမ်းမထားပါဘူး
+                        Element တစ်ခုချင်းစီတိုင်းမှာ next element ရဲ့ memory နေရာကို ညွှန်းထားတဲ့ reference
+                        တစ်ခုစီပါပါတယ်
+                    </li>
+                </ul>
+
+
+
+            </li>
+            <li>
+                <p class="header">Size</p>
+                <ul class="inner-ul">
+                    <li>
+                        Array တစ်ခုရဲ့ size က စစ declare လုပ်တည်းက သတ်မှတ်ပြီးသားဖြစ်ပြီး runtime မှာပြောင်းဖို့မလွယ်ပါ
+                    </li>
+                    <li>
+                        Singly Linked List ရဲ့ size ကတော့ runtime မှာလည်း ပြောင်းဖို့လွယ်ပါတယ်
+                    </li>
+                </ul>
+
+
+            </li>
+            <li>
+                <p class="header"> Insertion and Deletion</p>
+                <ul class="inner-ul">
+                    <li>
+                        Array
+                        Element တွေကို insert လုပ်တာမျိုး delete လုပ်တာမျိုးဆို time effieiency နည်းပါတယ် element
+                        တစ်ခုထည့်တိုင်း ဒါမှမဟုတ် တစ်ခုကို ဖျက်လိုက်ရင် index တွေကို ပြန်စီနေရတာမလို့ပါ
+                    </li>
+                    <li>
+                        Singly Linked List မှာတော့ time efficiency ပိုများပါတယ် အသစ်ထည့်လိုက်တဲ့ element or node ရယ်
+                        သူ့ဘေးက node နှစ်ခုရဲ့ reference တွေကိုပဲ updatebလုပ်စရာလိုလို့ပါ
+                    </li>
+                </ul>
+
+
+            </li>
+            <li>
+                <p class="header"> Accessing Element</p>
+
+
+                <ul class="inner-ul">
+                    <li>
+                        Array မှာတော့ time complexity က O(1) ဖြစ်ပါတယ် index ကိုသုံးပြီး တန်းရလို့ပဲဖြစ်ပါတယ်
+                    </li>
+                    <li>
+                        Singly Linked List မှာတော့ worst case scenario မှာဆို O(n) ဖြစ်ပါတယ်
+                        အစကနေစရှာရတာမလို့ပဲဖြစ်ပါတယ် ရှာရမယ့် elememt ကနောက်ဆုံးမှာ ရှိနေရင် အစကနေ အဆုံးထိ ရှိသမျှ
+                        elements အကုန် ရှာရပါတယ် ဒါကြောင့် O(n) ဖြစ်ပါတယ်
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <p class="header">Memory Usage</p>
+
+
+                <ul class="inner-ul">
+                    <li>
+                        Array မှာတော့ small datasets တွေမှာဆိုရင် next element အတွက် additional pointer or reference
+                        ကိုပါ သိမ်းစရာမလိုတဲ့ အတွက် memory efficiency ပိုများပါတယ်
+                    </li>
+                    <li>
+                        Singly Linked List မှာတော့ small datasets တွေမှာဆိုရင် next element အတွက် additional pointer or
+                        reference ကိုပါ သိမ်းရတဲ့ အတွက် memory efficiency နည်းပါတယ်
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <p class="header">Use Cases</p>
+
+
+                <ul class="inner-ul">
+                    <li>
+                        Array ကို dataset ရဲ့ size ကိုလည်း သိပြီး size ကို သိပ်လည်းပြောင်းစရာမလိုဘဲ element တွေကို
+                        randomly access အများဆုံးလုပ်ရရင် Array ကိုသုံးသင့်ပါတယ်
+
+                    </li>
+                    <li>
+                        Singly Linked List ကို dataset ရဲ့ size က dynamic ဖြစ်ရမယ့်အခါမျိုး element တွေကို insert delete
+                        ပိုလိုအပ်တဲ့အခါသုံးသင့်ပါတယ်
+                    </li>
+                </ul>
+                <hr>
+            </li>
+
+        </ul>
+        <p>
+
+            ဒါကြောင့် အချုပ်အနေနဲ့ Array သုံးရမလား Linked List သုံးရမလားဆိုတာဟာ မိမိရဲ့ application ရဲ့ လိုအပ်ချက်
+            ပေါ်မူတည်ပြီးကွာခြားသွားပါတယ် </p>
+        <p>
+            Array တွေကိုတော့ အများအားဖြင့် Array ရဲ့ size ကို runtime မှာ dynamically သိပ်ပြောင်းစရာမလိုတဲ့ အခြေအနေမျိုး
+            element တွေကို ရယူရတဲ့ အခြေအနေမျိုး များတဲ့ app တွေမှာ သုံးသင့်ပါတယ်
+        </p>
+        <p>Singly Linked List ကိုတော့ list ရဲ့ size ကလည်း runtime မှာ dynamically ပြောင်းလဲမှုများပြီး element
+            အသစ်တွေထည့်ရတာ element တွေဖျက်ရတာများတဲ့ app မျိုးမှာ အသုံးပြုသင့်ပါတယ်</p>
+
+    </div>
+    <button (click)="scrollToTop()" class="scroll-up-btn"><i class="fa-solid fa-angle-up"></i></button>
+</section>

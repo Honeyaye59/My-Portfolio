@@ -1,0 +1,17 @@
+.main-content {
+    position: absolute;
+    left: 20%;
+    
+    width: 80%;
+  }
+
+  @media screen and (max-width: 980px) {
+    .main-content {
+      left: 0%;
+      width: 100%;
+    }
+    
+    
+  }
+
+  

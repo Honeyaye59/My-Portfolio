@@ -1,0 +1,96 @@
+.container {
+    padding: 50px;
+}
+h1 {
+    font-size: 2rem;
+    color: var(--orange-color);
+    
+}
+.sub-title {
+    font-size: 1.2rem;
+    color: var(--orange-color);
+    font-weight: bold;
+}
+span {
+    font-weight:lighter;
+    font-style: italic;
+}
+.container > * {
+    margin-bottom: 20px;
+}
+ul li {
+    margin-bottom: 10px;
+}
+ul {
+    list-style: square;
+}
+.img-container {
+    max-width: 600px;
+    height: auto;
+    margin: 20px 0;
+
+}
+.img-container img {
+    width: 100%;
+    height: 100%;
+}
+a {
+    color: var(--orange-color)
+}
+.btn-container {
+    margin-bottom: 20px;
+}
+.btn {
+    display: inline-block;
+    margin-right: 20px;
+    border: 2px solid var(--orange-color);
+  
+    background-color: var(--orange-color);
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #fff;
+    transition: all 0.2s ease-in;
+}
+.btn:hover {
+    border: 2px solid var(--orange-color);
+    background-color: var(--background-color);
+}
+.icon {
+    color: var(--orange-color);
+    font-size: 3rem;
+    cursor: pointer;
+}
+
+.scroll-up-btn {
+    
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px;
+    background-color: var(--orange-color);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  
+}
+.scroll-up-btn i {
+font-size: 1.2rem;
+}
+
+.inner-ul li {
+    margin-left: 20px;
+}
+.header {
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+.color-text {
+    color: var(--orange-color);
+    margin-right: 10px;
+    font-style: normal;
+}

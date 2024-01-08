@@ -1,0 +1,71 @@
+<header class="mobile-header">
+    
+    <div class="menu-bar">
+        <label for="menu-toggle" id="menu-icon" [innerHTML]="isMenuOpen ? '&#10006;' : '&#9776;'" (click)="toggleMenu()">
+            <input type="checkbox" id="menu-toggle" [(ngModel)]="isMenuOpen">
+        </label>
+    </div>
+
+    <div class="menu" [ngClass]="{ 'open': isMenuOpen }">
+        <div class="logo">
+            HEY!
+        </div>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#intro" (click)="scrollTo('#intro')"><i class="fa-solid fa-house"></i> Intro</a>
+                </li>
+                <li>
+                    <a href="#about" (click)="scrollTo('#about')"><i class="fa-solid fa-user-check"></i>About</a>
+                </li>
+                <li>
+                    <a href="#projects" (click)="scrollTo('#projects')"><i class="fa-solid fa-laptop-file"></i>Projects</a>
+                </li>
+                <li>
+                    <a href="#skills" (click)="scrollTo('#skills')"><i class="fa-solid fa-wand-magic-sparkles"></i>Skills</a>
+                </li>
+                
+                <!-- <li>
+                    <a href=""><i class="fa-solid fa-heart"></i>Hobbies</a>
+                </li> -->
+                <li>
+                    <a href="#blog" (click)="scrollTo('#blog')"><i class="fa-solid fa-file-pen"></i>Blog</a>
+                </li>
+                <!-- <li>
+                    <a href=""><i class="fa-solid fa-address-book"></i>Contact</a>
+                </li> -->
+            </ul>
+        </nav>
+      </div>
+</header>
+<header class="desktop-header">
+    <div class="logo">
+        HEY!
+    </div>
+    <nav>
+        <ul>
+            <li>
+                <a href="#intro" (click)="scrollTo('#intro')"><i class="fa-solid fa-house"></i> Intro</a>
+            </li>
+            <li>
+                <a href="#about" (click)="scrollTo('#about')"><i class="fa-solid fa-user-check"></i>About</a>
+            </li>
+            <li>
+                <a href="#projects" (click)="scrollTo('#projects')"><i class="fa-solid fa-laptop-file"></i>Projects</a>
+            </li>
+            <li>
+                <a href="#skills" (click)="scrollTo('#skills')"><i class="fa-solid fa-wand-magic-sparkles"></i>Skills</a>
+            </li>
+            
+            <!-- <li>
+                <a href="#blog" (click)="scrollTo('#blog')"><i class="fa-solid fa-heart"></i>Hobbies</a>
+            </li> -->
+            <li>
+                <a href="#blog" (click)="scrollTo('#blog')"><i class="fa-solid fa-file-pen"></i>Blog</a>
+            </li>
+            <!-- <li>
+                <a href=""><i class="fa-solid fa-address-book"></i>Contact</a>
+            </li> -->
+        </ul>
+    </nav>
+</header>

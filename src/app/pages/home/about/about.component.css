@@ -1,0 +1,77 @@
+section.about {
+    background-color: #fff;
+    padding: 40px 20px;
+    color: var(--background-color);
+    /* height: 100vh; */
+    width: 100%;
+    
+  } 
+
+  .btn {
+    padding: 10px 15px;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    width: 200px;
+    align-self: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    background-color: red;
+    cursor: pointer;
+    /* transition: all 0.2s ease-in; */
+    transition: all 0.5s ease;
+  }
+
+  .btn:hover {
+    box-shadow: 0 1em 1em -0.4em var(--background-color);
+  transform: translateY(-0.5em);
+  }
+
+  section.about h2{
+    font-size: 2rem;
+    font-weight: bolder;
+  }
+  section.about .content {
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-evenly;
+    align-items: center;
+    /* flex-wrap: wrap; */
+  }
+  section.about .img {
+    width: 150px;
+    height: 150px;
+    /* flex: 1; */
+  }
+  section.about .img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+  }
+  section.about .text {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    width: 70%;
+    margin-left: 40px;
+    padding: 20px;
+    /* flex: 1; */
+    line-height: 1.5rem;
+    border-radius: 20px;
+  }
+ 
+
+ section.about .img {
+    width: 150px;
+    height: 150px;
+  }
+  section.about .img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+  }
+
+  .download-resume {
+    font-size: 1rem;
+    margin-top: 20px;
+    padding: 15px 20px;
+  }
