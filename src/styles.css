@@ -16,3 +16,6 @@ body {
     color: #fff;
     font-family: 'Rethink Sans', sans-serif;
 }
+.btn-container .btn {
+    margin-top: 15px;
+}
