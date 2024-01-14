@@ -131,3 +131,11 @@ a {
       .title-2 {
         font-size: 1rem;
       }
+
+      @media only screen and (max-width: 390px) {
+    
+        .btn {
+          left: 20%;
+        }
+        /* Add more styles for smaller screens as needed */
+      }
