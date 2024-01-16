@@ -25,7 +25,7 @@ h4 {
     color: var(--orange-color);
 }
 .container .item {
-    width: 300px;
+    width: 280px;
     margin-bottom: 20px;
     font-size: 1.2rem;
     padding: 10px;
@@ -72,6 +72,9 @@ a {
   }
     /* Learn More Button */
     .btn {
+      position: absolute;
+      bottom: 20px;
+      
         font-weight: 600;
         color: var(--background-color);
         
@@ -122,14 +125,21 @@ a {
         box-shadow: 0 0 0 2px var(--text-color), 0 0 var(--background-color);
         transform: translate3d(0, 0, -1em);
       }
+      .item {
+        position: relative;
+      }
       .item.item-1 {
         background-color: #a973ff;
       }
       .item.item-2 {
         background-color: #BED754;
       }
-      .title-2 {
+      .item.item-3 {
+        background-color: #9ae1e2;
+      }
+      .title-2{
         font-size: 1rem;
+        
       }
 
       @media only screen and (max-width: 390px) {
@@ -139,3 +149,5 @@ a {
         }
         /* Add more styles for smaller screens as needed */
       }
+
+      
